@@ -29,8 +29,9 @@ enum boolean bubbly = false;
 if (!array || size < 2)
 return;
 
-for (bubbly = true; bubbly == false; length--)
+for (; bubbly == false; length--)
 {
+bubbly = true;
 for (i = 0; i < length; i++)
 {
 if (array[i] > array[i + 1])
