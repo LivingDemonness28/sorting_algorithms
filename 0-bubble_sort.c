@@ -26,7 +26,7 @@ void bubble_sort(int *array, size_t size)
 size_t i, length = size;
 enum boolean bubbly = false;
 
-if (!array || size < 2)
+if (array == NULL || size < 2)
 return;
 
 for (; bubbly == false; length--)
