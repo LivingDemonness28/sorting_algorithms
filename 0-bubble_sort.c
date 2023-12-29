@@ -24,7 +24,7 @@ hold = *int_1;
 void bubble_sort(int *array, size_t size)
 {
 size_t i, length = size;
-enum boolean bubbly = false;
+boolean bubbly = false;
 
 if (array == NULL || size < 2)
 return;
