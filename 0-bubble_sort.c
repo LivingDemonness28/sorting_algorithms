@@ -29,7 +29,7 @@ boolean bubbly = false;
 if (array == NULL || size < 2)
 return;
 
-for (; bubbly == false; length--)
+while (bubbly == false)
 {
 bubbly = true;
 for (i = 0; i < length - 1; i++)
@@ -41,5 +41,6 @@ print_array(array, size);
 bubbly = false;
 }
 }
+length--;
 }
 }
