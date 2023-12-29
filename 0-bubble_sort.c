@@ -32,7 +32,7 @@ return;
 for (; bubbly == false; length--)
 {
 bubbly = true;
-for (i = 0; i < length; i++)
+for (i = 0; i < length - 1; i++)
 {
 if (array[i] > array[i + 1])
 {
