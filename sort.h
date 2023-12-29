@@ -32,5 +32,6 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void sort_deck(deck_node_t **deck);
+void _swap(int *int_1, int *int_2);
 
 #endif
