@@ -27,7 +27,7 @@ typedef enum boolean
 {
 false = 0,
 true
-} bool;
+} boolean;
 
 void print_array(const int *array, size_t size);
 void print_array(const int *array, size_t size);
