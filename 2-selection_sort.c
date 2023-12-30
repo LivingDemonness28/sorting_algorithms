@@ -36,6 +36,7 @@ j = i + 1;
 while (j < size)
 {
 a = (array[j] < *a) ? (array + j) : a;
+j++;
 }
 if ((array + i) != a)
 {
