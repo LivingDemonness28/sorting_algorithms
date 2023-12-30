@@ -45,5 +45,6 @@ while (ins && count->n < ins->n)
 _swapn(list, &ins, count);
 print_list((const listint_t *)*list);
 }
+count = hold;
 }
 }
