@@ -5,7 +5,7 @@
  * @head: ptr to head of doubly linked list
  * @node_1: ptr to first node
  * @node_2: second node
- * Returns: Nothing 
+ * Returns: Nothing
 */
 void _swapn(listint_t **head, listint_t **node_1, listint_t *node_2)
 {
